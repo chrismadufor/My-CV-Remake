@@ -1,0 +1,81 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #eee;
+}
+
+/* -------SECTION STYLES---------- */
+.container {
+  width: 50%;
+  min-width: 650px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+.colored {
+  background-color: rgb(32, 56, 100);
+  color: white;
+  width: 36%;
+  padding: 40px 20px 40px 30px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.main {
+  background-color: white;
+  color: black;
+  width: 64%;
+  padding: 40px 50px 40px 20px;
+  line-height: 22px;
+}
+.sub-section {
+  margin-bottom: 20px;
+}
+/* -----This style is used to give extra spacing to the contact sub-section
+so top skills sub-section is aligned with the Education sub-section in the Main section--------- */
+
+.contact {
+  margin-bottom: 40px;
+}
+
+/* --------LIST STYLES---------- */
+
+ul {
+  list-style-type: disc;
+}
+.numbered {
+  list-style-type: decimal;
+}
+.colored ul {
+  padding-left: 12px;
+}
+.colored li {
+  margin-bottom: 7px;
+}
+
+/* -------TYPOGRAPHY--------- */
+
+h1,
+h2 {
+  font-weight: 600;
+}
+
+/* ----Negative margins on h1 tag are to overwrite the padding of the colored section 
+so that the text can take full width of the container----- */
+
+h1 {
+  font-size: 27px;
+  padding: 0;
+  margin: 13px -10px 0 -20px;
+}
+h2 {
+  font-size: 20px;
+}
+.sub-heading {
+  font-weight: normal;
+  font-size: 18px;
+}
